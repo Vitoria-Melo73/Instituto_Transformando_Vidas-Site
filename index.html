@@ -364,18 +364,5 @@
         <p>© 2026 Instituto de Reabilitação Transformando Vidas. Todos os direitos reservados.</p>
         <a href="https://www.instagram.com/instituto_transformando_vidas/" target="_blank" class="footer-instagram">Siga-nos no Instagram</a>
     </footer>
-
-    <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        }, { 
-            threshold: 0.15 
-        });
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-    </script>
 </body>
 </html> 
